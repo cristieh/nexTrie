@@ -1,5 +1,5 @@
 :root {
-  --dark_surface: #424549;
+  --dark_surface: #333;
   --background: #eee;
   --color: white;
   --royal-blue: #1f6fff;
@@ -14,7 +14,7 @@
 }
 
 body {
-  color: #424549;
+  color: #333;
   background-color: #424549;
   height: 100%;
   font-family: Source Sans Pro, sans-serif;
@@ -115,9 +115,10 @@ figcaption {
 }
 
 .navbar {
-  background-color: #31363f;
+  background-color: #0000;
+  border-bottom: 1px solid #ffffff1a;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 45px;
   position: absolute;
   top: 0;
   left: 0;
@@ -125,7 +126,7 @@ figcaption {
 }
 
 .navbar.with-color-button {
-  background-color: #31363f;
+  background-color: #0000001a;
   padding-bottom: 30px;
 }
 
@@ -725,7 +726,7 @@ figcaption {
 }
 
 .video-lightbox-block.large {
-  background-image: url('../images/Photo-6_2.jpg');
+  background-image: url('../images/Photo-6_1.jpg');
 }
 
 .video-lightbox-block.about-us {
@@ -1000,7 +1001,7 @@ figcaption {
 }
 
 .image-section.newsletter {
-  background-image: url('../images/Photo-6_2.jpg');
+  background-image: url('../images/Photo-6_1.jpg');
 }
 
 .image-section.avatars {
@@ -1288,7 +1289,7 @@ figcaption {
 }
 
 .footer-link.social {
-  background-image: url('../images/Icon-facebook_2.png');
+  background-image: url('../images/Icon-facebook.png');
   background-position: 0;
   background-repeat: no-repeat;
   background-size: 12px;
@@ -1822,7 +1823,7 @@ figcaption {
 }
 
 .video-lightbox-image-block {
-  background-image: linear-gradient(#0000001a, #0000001a), url('../images/Photo-6_2.jpg');
+  background-image: linear-gradient(#0000001a, #0000001a), url('../images/Photo-6_1.jpg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   border-radius: 4px;
@@ -2609,7 +2610,7 @@ figcaption {
   color: #eee;
   margin-top: 0;
   font-family: Source Sans Pro, sans-serif;
-  font-size: 300px;
+  font-size: 260px;
   font-weight: 600;
   line-height: 54px;
 }
@@ -3111,7 +3112,7 @@ figcaption {
 }
 
 .subpage-header.about-5 {
-  background-image: linear-gradient(#00000080, #00000080), url('../images/Photo-6_2.jpg');
+  background-image: linear-gradient(#00000080, #00000080), url('../images/Photo-6_1.jpg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   padding-top: 250px;
@@ -3138,7 +3139,7 @@ figcaption {
 }
 
 .subpage-header.blog-2 {
-  background-image: linear-gradient(#1c2331e6, #1c2331e6), url('../images/Photo-6_2.jpg');
+  background-image: linear-gradient(#1c2331e6, #1c2331e6), url('../images/Photo-6_1.jpg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   padding-top: 125px;
@@ -4983,7 +4984,7 @@ figcaption {
   color: #478ff7;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 140px;
   margin-bottom: 0;
   display: flex;
 }
@@ -4996,10 +4997,9 @@ figcaption {
 }
 
 .heading-4 {
-  color: #ffffff;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 40px;
+  margin-top: 60px;
   font-size: 18px;
   display: flex;
 }
@@ -5102,12 +5102,12 @@ html.w-mod-js [data-ix="hide-lightbox"] {
 
   .navbar {
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-left: 20px;
   }
 
   .navbar.with-color-button {
-    padding-bottom: 1cap;
+    padding-bottom: 20px;
   }
 
   .navbar.white {
@@ -5687,7 +5687,7 @@ html.w-mod-js [data-ix="hide-lightbox"] {
   }
 
   .hero-main-title {
-    font-size: 180px;
+    font-size: 200px;
     line-height: 44px;
   }
 
@@ -6024,7 +6024,7 @@ html.w-mod-js [data-ix="hide-lightbox"] {
   }
 
   .hero-overlay-block {
-    background-color: #686f72;
+    background-color: #31363f;
     padding-top: 180px;
     padding-bottom: 180px;
   }
@@ -6137,7 +6137,7 @@ html.w-mod-js [data-ix="hide-lightbox"] {
   }
 
   .footer-subscribe {
-    background-color: #fff;
+    background-color: #164992;
   }
 
   .footer-form-two {
@@ -6203,12 +6203,16 @@ html.w-mod-js [data-ix="hide-lightbox"] {
   .paragraph-2 {
     max-width: 170px;
   }
+
+  .heading-3 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .navbar {
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-left: 10px;
   }
 
